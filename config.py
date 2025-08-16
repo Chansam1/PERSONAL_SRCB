@@ -1,20 +1,20 @@
 import os
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8312833038:AAGy3XoN71EwVs3SnY889BuZv957UjIwd_E")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "27094872"))
+API_ID = int(os.environ.get("API_ID", ""))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "ce333b172c9eeec0a46d8328fe34d8cf")
+API_HASH = os.environ.get("API_HASH", "")
 
 # Your Owner / Admin Id For Broadcast 
 ADMINS = int(os.environ.get("ADMINS", "123456789"))
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://chanpreet5050:35Kl40GYt8C7MSQt@cluster0.ddu7qgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "beastxsrcb")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
